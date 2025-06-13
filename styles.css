@@ -352,3 +352,11 @@ body {
     max-width: 96vw;
   }
 }
+
+/* On large screens, increase the right margin of the yellow button */
+@media (min-width: 1200px) {
+  .form-container .email-btn {
+    /* Increase right margin for large screens */
+    margin-right: 135px; /* You can adjust this value as needed */
+  }
+}
